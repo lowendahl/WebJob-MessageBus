@@ -59,6 +59,11 @@ The solution is based on two main components:
 - WebJob application (`WebJob.MessageBus` project)
 - Message Dispatcher (`WebJob.MessageBus.Dispatcher` project)
 
+It assumes that Azure Storage Queues is the messeging mechanism. Below is an illustration on how the components work togehter:
+
+![Architecture Overivew](https://raw.githubusercontent.com/lowendahl/WebJob-MessageBus/master/WebJobasMessageBus.png)
+
+
 ####WebJob.MessageBus
 This is a standard Console application that register a WebJob `JobHost`. It configures the host using 
     a custom 'TypeLocator' that uses the `CodeDomProvider` to dynamically compile a Functions class
