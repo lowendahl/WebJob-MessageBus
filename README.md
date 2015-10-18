@@ -1,2 +1,2 @@
 # WebJob-MessageBus
-Code to create dynamic trigger registration and handler dispatch to make an Azure WebJob look and feel like a message bus
+While Azure WebJobs are simple and intuituive, there is still some work required for them to to be dynamic and smooth. This repository contains example code that turns a WebJob into a dynamic message bus triggered by Azure Storage Queues. 
