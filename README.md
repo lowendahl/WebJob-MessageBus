@@ -73,9 +73,9 @@ This component will automatically register any number of handlers for each messa
 
  As an example; the message `NewImageAdded` could have three handlers: 
 
-   - CreateThumbnail
-   - ExtractExIFMetadata
-   - PublishToCDN
+- CreateThumbnail
+- ExtractExIFMetadata
+- PublishToCDN
 
  Which would all be executed when a `NewImageAdded` messages is posted on the `newimageadded` Azure Storage Queue.
 
