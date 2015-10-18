@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Example usage", "3. Exam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Documentation", "1. Documentation", "{97E340E6-AE12-410E-88F9-5D75D0D98C5F}"
 	ProjectSection(SolutionItems) = preProject
-		Get Started.txt = Get Started.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus", "Components\WebJob.MessageBus\WebJob.MessageBus.csproj", "{A07A4287-16A8-4312-86EE-825B6F85FE26}"
