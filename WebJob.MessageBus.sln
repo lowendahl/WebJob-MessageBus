@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Components", "2. Components", "{89FBCCA7-AA8B-44BF-8515-75CBB63F2F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Example usage", "3. Example usage", "{B409A873-D304-4C87-A92F-A886DAE03EC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Documentation", "1. Documentation", "{97E340E6-AE12-410E-88F9-5D75D0D98C5F}"
+	ProjectSection(SolutionItems) = preProject
+		Get Started.txt = Get Started.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus", "Components\WebJob.MessageBus\WebJob.MessageBus.csproj", "{A07A4287-16A8-4312-86EE-825B6F85FE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus.Dispatch", "Components\WebJob.MessageBus.Dispatch\WebJob.MessageBus.Dispatch.csproj", "{B101BBB1-B069-4981-AF15-4E14FD6C59AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus.Example.Client", "Example\WebJob.MessageBus.Example.Client\WebJob.MessageBus.Example.Client.csproj", "{F2EEF249-DB30-4019-87F3-894338CA0133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus.Example.Handlers", "Example\WebJob.MessageBus.Example.Handlers\WebJob.MessageBus.Example.Handlers.csproj", "{C58C513D-E5F8-4943-9671-0B3701CB4E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.MessageBus.Example.Messages", "Example\WebJob.MessageBus.Examples.Messages\WebJob.MessageBus.Example.Messages.csproj", "{4ACDAA5C-523F-47EB-8116-0F28014DACFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07A4287-16A8-4312-86EE-825B6F85FE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07A4287-16A8-4312-86EE-825B6F85FE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07A4287-16A8-4312-86EE-825B6F85FE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07A4287-16A8-4312-86EE-825B6F85FE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B101BBB1-B069-4981-AF15-4E14FD6C59AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B101BBB1-B069-4981-AF15-4E14FD6C59AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B101BBB1-B069-4981-AF15-4E14FD6C59AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B101BBB1-B069-4981-AF15-4E14FD6C59AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EEF249-DB30-4019-87F3-894338CA0133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EEF249-DB30-4019-87F3-894338CA0133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EEF249-DB30-4019-87F3-894338CA0133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EEF249-DB30-4019-87F3-894338CA0133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58C513D-E5F8-4943-9671-0B3701CB4E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58C513D-E5F8-4943-9671-0B3701CB4E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58C513D-E5F8-4943-9671-0B3701CB4E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58C513D-E5F8-4943-9671-0B3701CB4E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACDAA5C-523F-47EB-8116-0F28014DACFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACDAA5C-523F-47EB-8116-0F28014DACFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACDAA5C-523F-47EB-8116-0F28014DACFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACDAA5C-523F-47EB-8116-0F28014DACFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A07A4287-16A8-4312-86EE-825B6F85FE26} = {89FBCCA7-AA8B-44BF-8515-75CBB63F2F9D}
+		{B101BBB1-B069-4981-AF15-4E14FD6C59AF} = {89FBCCA7-AA8B-44BF-8515-75CBB63F2F9D}
+		{F2EEF249-DB30-4019-87F3-894338CA0133} = {B409A873-D304-4C87-A92F-A886DAE03EC6}
+		{C58C513D-E5F8-4943-9671-0B3701CB4E0B} = {B409A873-D304-4C87-A92F-A886DAE03EC6}
+		{4ACDAA5C-523F-47EB-8116-0F28014DACFE} = {B409A873-D304-4C87-A92F-A886DAE03EC6}
+	EndGlobalSection
+EndGlobal
