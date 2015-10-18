@@ -77,7 +77,7 @@ This component will automatically register any number of handlers for each messa
 - ExtractExIFMetadata
 - PublishToCDN
 
- Which would all be executed when a `NewImageAdded` messages is posted on the `newimageadded` Azure Storage Queue.
+Which would all be executed when a `NewImageAdded` messages is posted on the `newimageadded` Azure Storage Queue.
 
 ####Creating a new Message
 Any new message the solutions should listen to needs to inherit the `WebJob.MessageBus.Dispatch.Message` class from the `WebJob.MessageBus.Dispatch` project.
